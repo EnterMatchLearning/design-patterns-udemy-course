@@ -1,4 +1,4 @@
-package org.example.lessons.factory.prototype;
+package org.example.lessons.prototype;
 
 import org.apache.commons.lang3.SerializationUtils;
 

@@ -1,4 +1,4 @@
-package org.example.lessons.factory.prototype.singleton;
+package org.example.lessons.singleton;
 
 import java.util.HashMap;
 

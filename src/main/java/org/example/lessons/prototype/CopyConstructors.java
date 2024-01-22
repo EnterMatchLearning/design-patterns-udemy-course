@@ -1,4 +1,4 @@
-package org.example.lessons.factory.prototype;
+package org.example.lessons.prototype;
 
 class Address
 {
