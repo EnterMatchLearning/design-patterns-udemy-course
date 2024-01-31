@@ -1,4 +1,4 @@
-package com.activemesa.structural.decorator.statik;
+package org.example.lessons.decorator;
 
 import java.util.function.Supplier;
 

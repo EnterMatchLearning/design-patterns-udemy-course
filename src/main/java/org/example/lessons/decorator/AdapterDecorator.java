@@ -2,17 +2,14 @@ package org.example.lessons.decorator;
 
 import java.util.stream.IntStream;
 
-class MyStringBuilder // extends StringBuilder
-{
+class MyStringBuilder {
   private StringBuilder sb = new StringBuilder();
 
-  public MyStringBuilder()
-  {
+  public MyStringBuilder() {
     sb = new StringBuilder();
   }
 
-  public MyStringBuilder(String str)
-  {
+  public MyStringBuilder(String str) {
     sb = new StringBuilder(str);
   }
 
@@ -21,15 +18,13 @@ class MyStringBuilder // extends StringBuilder
     return sb.toString();
   }
 
-  public MyStringBuilder appendLine(String str)
-  {
+  public MyStringBuilder appendLine(String str) {
     sb.append(str).append(System.lineSeparator());
     return this;
   }
 
   // something from string's API
-  public MyStringBuilder concat(String str)
-  {
+  public MyStringBuilder concat(String str) {
     return new MyStringBuilder(sb.toString().concat(str));
   }
 
@@ -37,7 +32,7 @@ class MyStringBuilder // extends StringBuilder
 
   //     vv
   public MyStringBuilder append(Object obj) {
-    //return sb.append(obj);
+    // return sb.append(obj);
     sb.append(obj);
     return this;
   }
